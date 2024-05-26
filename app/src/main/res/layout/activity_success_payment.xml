@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".SuccessPayment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_marginTop="100dp"
+                android:id="@+id/imageView10"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/success" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:text="Pembayaran Anda Berhasil"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/transactioncode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="No Transaksi : 12345678"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_marginTop="10dp"
+                android:layout_width="280dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="-5dp"
+                android:layout_width="280dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="-5dp"
+                android:layout_width="280dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/line" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="55dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Total Bayar"
+                    android:textColor="#C4000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/promo"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Rp. 25.000,00"
+                    android:textColor="#00FF19"
+                    android:textSize="20dp"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="55dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Dibayar Melalui"
+                    android:textColor="#C4000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/promos"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Dana"
+                    android:textColor="#0098B9"
+                    android:textSize="20dp"
+                    tools:ignore="MissingConstraints" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonCheckout"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#1286F8"
+                    android:text="Kembali"
+                    android:textSize="18dp"
+                    app:cornerRadius="12dp"
+                    tools:ignore="MissingConstraints" />
+
+
+        </LinearLayout>
+        </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

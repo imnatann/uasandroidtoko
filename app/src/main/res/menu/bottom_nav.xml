@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Menu"
+        android:id="@+id/dashbord"
+        android:icon="@drawable/menus"
+        android:actionLayout="@layout/custom_menu_item" />
+
+
+    <item
+        android:title="Order"
+        android:id="@+id/users"
+        android:icon="@drawable/orders"
+        android:actionLayout="@layout/custom_menu_item" />
+
+    <item
+        android:title="Beranda"
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:actionLayout="@layout/custom_menu_item" />
+
+
+    <item
+        android:title="Promo"
+        android:id="@+id/profile"
+        android:icon="@drawable/promo"
+        android:actionLayout="@layout/custom_menu_item" />
+
+
+    <item
+        android:title="Akun"
+        android:id="@+id/user"
+        android:icon="@drawable/user"
+        android:actionLayout="@layout/custom_menu_item" />
+</menu>
